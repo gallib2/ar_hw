@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: 815c95ecb5a599b4fa40b31fbde21a80
-timeCreated: 1513171633
-licenseType: Store
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_214_ol1
     100002: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_214_ol2
@@ -69,6 +67,29 @@ ModelImporter:
     2100026: mat_mat9
     2100028: mat_mat64
     2100030: mat_mat7
+    2100032: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_214_ol1Mat
+    2100034: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_214_ol2Mat
+    2100036: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_214_ol3Mat
+    2100038: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_214_ol4Mat
+    2100040: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_214_olFBXASC045libMat
+    2100042: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_215_ol1Mat
+    2100044: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_215_olFBXASC045libMat
+    2100046: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_219_olFBXASC045libMat
+    2100048: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_220_olFBXASC045libMat
+    2100050: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_228_olFBXASC045libMat
+    2100052: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_231_ol1Mat
+    2100054: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_231_ol2Mat
+    2100056: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_231_ol3Mat
+    2100058: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_231_olFBXASC045libMat
+    2100060: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_231_olFBXASC045lib_(1)Mat
+    2100062: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_232_olFBXASC045libMat
+    2100064: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_433_ol1Mat
+    2100066: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_433_olFBXASC045libMat
+    2100068: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_435_ol1Mat
+    2100070: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_435_olFBXASC045libMat
+    2100072: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_442_olFBXASC045libMat
+    2100074: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_453_ol1Mat
+    2100076: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_453_olFBXASC045libMat
     2300000: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_214_ol1
     2300002: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_214_ol2
     2300004: _lunity_0_000FBXASC045ktmFBXASC045rc8_asm_214_ol3
@@ -157,6 +178,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -171,6 +193,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -188,11 +211,16 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -207,7 +235,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
